@@ -1,26 +1,4 @@
 # This is a sample properties.yml file
 # Use the '---' to separate multiple profiles within a single file (optional)
-spring:
-  application:
-    name: "user-service"
-  datasource:
-    driver-class-name: "com.mysql.jdbc.Driver"
-    url: "jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example"
-    username: "springuser"
-    password: "ThePassword"
-  jpa:
-    hibernate:
-      ddl-auto: update
-
-server:
-  port: 9000 # The application will run on port 9000
-
-# Example of a list/array
-application:
-  servers:
-    - ip: '127.0.0.1'
-      path: '/path1'
-    - ip: '127.0.0.2'
-      path: '/path2'
-    - ip: '127.0.0.3'
-      path: '/path3'
+app:
+  name: "Config-service"
