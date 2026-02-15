@@ -1,4 +1,4 @@
 # This is a sample properties.yml file
 # Use the '---' to separate multiple profiles within a single file (optional)
 app:
-  name: "Config-service"
+  name: "Config-service Application"
